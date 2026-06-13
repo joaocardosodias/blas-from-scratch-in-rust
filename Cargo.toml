@@ -9,7 +9,11 @@ edition = "2024"
 criterion = "0.5"
 
 [[bench]]
-name = "dot_bench"
+name = "stdot_bench"
+harness = false
+
+[[bench]]
+name = "saxpy_bench"
 harness = false
 
 [profile.release]

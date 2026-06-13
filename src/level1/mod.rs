@@ -1,1 +1,2 @@
-pub mod dot;
+pub mod stdot;
+pub mod axpy;
