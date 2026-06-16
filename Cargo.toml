@@ -16,6 +16,10 @@ harness = false
 name = "saxpy_bench"
 harness = false
 
+[[bench]]
+name = "snrm2_bench"
+harness = false
+
 [profile.release]
 opt-level = 3
 lto = "fat"
