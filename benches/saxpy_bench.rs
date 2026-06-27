@@ -1,5 +1,5 @@
-use criterion::{black_box, criterion_group, criterion_main, Criterion, Throughput};
 use blas_from_scratch_in_rust::{saxpy, saxpy_iter};
+use criterion::{Criterion, Throughput, black_box, criterion_group, criterion_main};
 
 fn bench_saxpy(c: &mut Criterion) {
     let n = 1024usize;
